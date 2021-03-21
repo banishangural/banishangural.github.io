@@ -219,28 +219,28 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "FreeCodeCamp Full Stack Web Developer",
+      title: "Freelancer at Upwork",
       subtitle:
-        "Successfully completed freecodecamp web developer course.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Helped clients by providing Social Media Management, Web Development and SEO services.",
+      image: require("./assets/images/upwork.png"),
       footerLink: [
         {
-          name: "Certification",
+          name: "Upwork Profile",
           url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+            "https://www.upwork.com/freelancers/~014baf3caee3fed887"
         }
       ]
     },
     {
-      title: "Hubspot",
+      title: "Google Foobar",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Succesfully completed the Google foobar Challenge",
+      image: require("./assets/images/foobar.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "Learn More about Foobar",
           url:
-            "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+            "https://medium.com/plutonic-services/things-you-should-know-about-google-foobar-invitation-703a535bf30f"
         }
       ]
     }
