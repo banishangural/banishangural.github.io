@@ -64,11 +64,6 @@ function Header() {
               <a href="#blogs">Blogs</a>
             </li>
           )}
-          {viewTalks && (
-            <li>
-              <a href="#talks">Talks</a>
-            </li>
-          )}
           <li>
             <a href="#contact">Contact Me</a>
           </li>
