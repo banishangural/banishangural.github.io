@@ -195,13 +195,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/ai.jpeg"),
       projectName: "Artificial Intelligence Desktop App",
       projectDesc: "A personal assistant who can chat with you and follow your commands!",
       footerLink: [
         {
           name: "Visit Github",
-          url: ""
+          url: "https://github.com/banishangural/ALERT-AI"
         }
       ]
     }
@@ -268,6 +268,12 @@ const blogSection = {
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+    },
+    {
+      url: "https://anguralbanish2.medium.com/quick-enable-dark-mode-for-whatsapp-on-iphone-d2815fb8c284",
+      title: "Enable Dark Mode for Whatsapp on iPhone",
+      description:
+        "This post clearly describes how to enable dark mode on WhatsApp on an iPhone."
     }
   ],
   display: true // Set false to hide this section, defaults to true
