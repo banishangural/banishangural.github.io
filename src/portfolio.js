@@ -203,6 +203,17 @@ const bigProjects = {
           url: "https://github.com/banishangural/ALERT-AI"
         }
       ]
+    },
+    {
+      image: require("./assets/images/vedseeds.png"),
+      projectName: "VedSeeds",
+      projectDesc: "An astrology service web app for my client",
+      footerLink: [
+        {
+          name: "Visit VedSeeds",
+          url: "https://www.vedseeds.com/"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
