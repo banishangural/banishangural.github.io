@@ -25,7 +25,6 @@ const socialMediaLinks = {
   github: "https://github.com/banishangural",
   linkedin: "https://www.linkedin.com/in/banishangural/",
   gmail: "anguralbanish2@gmail.com",
-  instagram: "https://instagram.com/banishangural",
   stackoverflow: "https://stackoverflow.com/users/8826141/banish-angural",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
