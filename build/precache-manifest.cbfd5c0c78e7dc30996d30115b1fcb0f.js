@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8d3c6f83a5f2add1aa56b9714c162b42",
+    "revision": "85e393101110bfaa7475eca6cdba19e5",
     "url": "/index.html"
   },
   {
-    "revision": "a6e99da3dd043359a182",
+    "revision": "3145e1976c8fbd1b789c",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "ec7a7e2bfdde3aa8b613",
+    "revision": "ef79c4a8b5185c444d0a",
     "url": "/static/css/4.3e7d09e6.chunk.css"
   },
   {
-    "revision": "232d4cb582f821f2405d",
+    "revision": "7ee08ddd3044c85f268b",
     "url": "/static/css/main.207db4cf.chunk.css"
   },
   {
-    "revision": "a180bfb40a27afe5a5ce",
-    "url": "/static/js/2.40bb1e81.chunk.js"
+    "revision": "c5e326330a993aef8f52",
+    "url": "/static/js/2.d128024d.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.40bb1e81.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.d128024d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6e99da3dd043359a182",
-    "url": "/static/js/3.cc02f931.chunk.js"
+    "revision": "3145e1976c8fbd1b789c",
+    "url": "/static/js/3.a4b0ccd7.chunk.js"
   },
   {
-    "revision": "ec7a7e2bfdde3aa8b613",
-    "url": "/static/js/4.de8569cb.chunk.js"
+    "revision": "ef79c4a8b5185c444d0a",
+    "url": "/static/js/4.60f439a9.chunk.js"
   },
   {
-    "revision": "232d4cb582f821f2405d",
-    "url": "/static/js/main.914b1f3e.chunk.js"
+    "revision": "7ee08ddd3044c85f268b",
+    "url": "/static/js/main.bb27006a.chunk.js"
   },
   {
-    "revision": "908be617f7ec60e8b51a",
-    "url": "/static/js/runtime-main.132d413a.js"
+    "revision": "8dbd17c3aead1c2ee03b",
+    "url": "/static/js/runtime-main.f5a34ee4.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -82,5 +82,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
     "url": "/static/media/talksCardBack.13780cdd.svg"
+  },
+  {
+    "revision": "bfd122aa55559d299d04a9dfe5d5c4f4",
+    "url": "/static/media/vedseeds.bfd122aa.png"
   }
 ]);
