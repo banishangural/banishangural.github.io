@@ -1,5 +1,6 @@
 {
   "homepage": "https://banishangural.github.io/banishangural.github.io",
+  "name": "Banish Angural",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
