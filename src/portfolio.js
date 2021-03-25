@@ -108,9 +108,24 @@ const workExperiences = {
       desc:
         "",
       descBullets: [
-        "Collaborating with other team members to Maintain GoA web applications.",
-        "Managing Incident tickets through JIRA and ITSM.",
-        "Using C# and SQL to work on various Change Requests."
+        "Collaborated with other team members to maintain several web applications.",
+        "Attended meetings with the clients and wrote their requirements.",
+        "Created and organized documents.",
+        "Managed Incident tickets through JIRA and ITSM.",
+        "Technology used: C# (ASP.NET), SQL, HTML, CSS, JS",
+      ]
+    },
+    {
+      role: "Freelancer",
+      company: "Upwork",
+      companylogo: require("./assets/images/upwork.png"),
+      date: "September 2019 – Present",
+      desc:
+        "",
+      descBullets: [
+        "Services provided: Social Media Management, Search Engine Optimization, Content writing, etc.",
+        "Hosted regular meetings with the clients to understand their expectations and the scope.",
+        "Technology used: WordPress, Shopify, ahref, Google, and Facebook ads.",
       ]
     },
     {
@@ -157,7 +172,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ai.jpeg"),
       projectName: "Artificial Intelligence Desktop App",
-      projectDesc: "A personal assistant who can chat with you and follow your commands!",
+      projectDesc: "An artificial intelligence desktop app which uses Windows speech synthesizer to understand voice commands.!",
       footerLink: [
         {
           name: "Visit Github",
@@ -168,7 +183,7 @@ const bigProjects = {
     {
       image: require("./assets/images/vedseeds.png"),
       projectName: "VedSeeds",
-      projectDesc: "An astrology service web app for my client",
+      projectDesc: "An ecommerce website where people can purchase astrology services.",
       footerLink: [
         {
           name: "Visit VedSeeds",
@@ -256,7 +271,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
