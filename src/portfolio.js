@@ -5,7 +5,7 @@
 import emoji from "react-easy-emoji";
 
 const illustration = {
-  animated: true // set to false to use static SVG
+  animated: false // set to false to use static SVG
 };
 
 const greeting = {
@@ -39,14 +39,34 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front / Back end Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Strong C# (.NET) and Databases (SQL, MongoDB, Oracle) Skills"),
+    emoji("⚡ C# (.NET) and Databases (SQL, MongoDB, Oracle) Skills"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS / Google Analytics"
     )
   ],
 
 
   softwareSkills: [
+    {
+      skillName: "c#",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
@@ -54,18 +74,6 @@ const skillsSection = {
     {
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "vuejs",
-      fontAwesomeClassname: "fab fa-vuejs"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
     },
     {
       skillName: "android",
@@ -76,10 +84,6 @@ const skillsSection = {
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
@@ -87,70 +91,15 @@ const skillsSection = {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
-    {
-      skillName: "c#",
-      fontAwesomeClassname: "fas fa-code"
-    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
-// Education Section
-
-const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Northern Alberta Institute of Technology",
-      logo: require("./assets/images/naitlogo.png"),
-      subHeader: "Digital Media and IT",
-      duration: "May 2018 - Jan 2021",
-      desc: "Major: Computer Software and Developer",
-      descBullets: [
-        "Received 3 X Dean's Honor Roll"
-      ]
-    }
-  ]
-};
-
-// Your top 3 proficient stacks/tech experience
-
-const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
-  ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
-};
-
 // Work experience section
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Sales Floor Associate",
-      company: "PPG",
-      companylogo: require("./assets/images/ppglogo.png"),
-      date: "September 2020 – Present",
-      desc:
-        "",
-      descBullets: [
-        "Assess customer needs and offer solutions",
-        "Work in a retail store environment with store and occasional driver responsibilities"
-      ]
-    },
     {
       role: "System Analyst Co-op",
       company: "CGI Canada",
@@ -162,6 +111,18 @@ const workExperiences = {
         "Collaborating with other team members to Maintain GoA web applications.",
         "Managing Incident tickets through JIRA and ITSM.",
         "Using C# and SQL to work on various Change Requests."
+      ]
+    },
+    {
+      role: "Sales Floor Associate",
+      company: "PPG",
+      companylogo: require("./assets/images/ppglogo.png"),
+      date: "September 2020 – Present",
+      desc:
+        "",
+      descBullets: [
+        "Assess customer needs and offer solutions",
+        "Work in a retail store environment with store and occasional driver responsibilities"
       ]
     }
   ]
@@ -218,6 +179,46 @@ const bigProjects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
+// Education Section
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Northern Alberta Institute of Technology",
+      logo: require("./assets/images/naitlogo.png"),
+      subHeader: "Digital Media and IT",
+      duration: "May 2018 - Jan 2021",
+      desc: "Major: Computer Software and Developer",
+      descBullets: [
+        "Received 3 X Dean's Honor Roll"
+      ]
+    }
+  ]
+};
+
+// Your top 3 proficient stacks/tech experience
+
+const techStack = {
+  viewSkillBars: false, //Set it to true to show Proficiency Section
+  experience: [
+    {
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "90%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "60%"
+    }
+  ],
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+};
+
 
 // Achievement Section
 // Include certificates, talks etc
