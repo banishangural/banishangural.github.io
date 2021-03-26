@@ -12,7 +12,7 @@ const greeting = {
   username: "Banish Angural",
   title: "Hi all, I'm Banish",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / VueJS / Nodejs / C# and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with C# / SQL / JavaScript / VueJS / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ptUJfSvZ7MPT2SLTg2uL20oh6b_n0jtq/view?usp=sharing",
@@ -49,47 +49,39 @@ const skillsSection = {
   softwareSkills: [
     {
       skillName: "c#",
-      fontAwesomeClassname: "fas fa-code"
+      fontAwesomeClassname: "csharp-custom-icon"
     },
     {
       skillName: "vuejs",
-      fontAwesomeClassname: "fab fa-vuejs"
+      fontAwesomeClassname: "vuejs-custom-icon"
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "sql-custom-icon"
     },
     {
       skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      fontAwesomeClassname: "js-custom-icon"
     },
     {
       skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      fontAwesomeClassname: "nodejs-custom-icon"
     },
     {
       skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      fontAwesomeClassname: "html-custom-icon"
     },
     {
       skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      fontAwesomeClassname: "css-custom-icon"
     },
     {
-      skillName: "android",
-      fontAwesomeClassname: "fab fa-android"
+      skillName: "mongoDB",
+      fontAwesomeClassname: "mongodb-custom-icon"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "oracle",
+      fontAwesomeClassname: "oracle-custom-icon"
     },
     
   ],
