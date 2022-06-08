@@ -34,7 +34,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A PASSIONATE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A PASSIONATE DEVELOPER & MARKETER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front / Back end Interfaces for your web and mobile applications"
@@ -42,6 +42,9 @@ const skillsSection = {
     emoji("⚡ C# (.NET) and Databases (SQL, MongoDB, Oracle) Skills"),
     emoji(
       "⚡ Integration of third party services such as Firebase/ AWS / Google Analytics"
+    ),
+    emoji(
+      "⚡ Google Ads, Facebook Ads, SEO, PPC Specialist"
     )
   ],
 
@@ -83,6 +86,10 @@ const skillsSection = {
       skillName: "oracle",
       fontAwesomeClassname: "oracle-custom-icon"
     },
+    {
+      skillName: "Google Ads",
+      fontAwesomeClassname: "buysellads-custom-icon"
+    }
     
   ],
   display: true // Set false to hide this section, defaults to true
@@ -124,12 +131,24 @@ const workExperiences = {
       role: "Sales Floor Associate",
       company: "PPG",
       companylogo: require("./assets/images/ppglogo.png"),
-      date: "September 2020 – Present",
+      date: "September 2020 – March 2022",
       desc:
         "",
       descBullets: [
         "Assess customer needs and offer solutions",
         "Work in a retail store environment with store and occasional driver responsibilities"
+      ]
+    },
+    {
+      role: "Digital Marketer",
+      company: "BubbleUp Marketing",
+      companylogo: require("./assets/images/bubbleup.png"),
+      date: "July 2021 –  Present",
+      desc:
+        "",
+      descBullets: [
+        "Work as SEO and PPC Specialist",
+        "Help in getting more leads and business to my clients"
       ]
     }
   ]
@@ -221,6 +240,10 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Digital Marketing",
+      progressPercentage: "95%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -261,9 +284,22 @@ const achievementSection = {
             "https://medium.com/plutonic-services/things-you-should-know-about-google-foobar-invitation-703a535bf30f"
         }
       ]
+    },
+    {
+      title: "Google Ads Certification",
+      subtitle:
+        "Completed Google Ads Search, Video & Shopping Course",
+      image: require("./assets/images/googleads.png"),
+      footerLink: [
+        {
+          name: "Learn More Google Certifications",
+          url:
+            "https://support.google.com/google-ads/answer/9702955?hl=en"
+        }
+      ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
