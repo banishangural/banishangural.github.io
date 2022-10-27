@@ -12,10 +12,10 @@ const greeting = {
   username: "Banish Angural",
   title: "Hi all, I'm Banish",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with C# / SQL / JavaScript / VueJS / Nodejs and some other cool libraries and frameworks."
+    "A passionate Digital Marketer & Software Developer 🚀 having an experience of building Web and Mobile applications with C# / SQL / JavaScript / VueJS / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ptUJfSvZ7MPT2SLTg2uL20oh6b_n0jtq/view?usp=sharing",
+    "https://drive.google.com/file/d/116u2tQxPy_A4tpWoxj9lXA8V1bXXSf3T/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A PASSIONATE DEVELOPER & MARKETER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "A PASSIONATE DEVELOPER & MARKETER WHO WANTS TO EXPLORE EVERY STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front / Back end Interfaces for your web and mobile applications"
@@ -51,7 +51,11 @@ const skillsSection = {
 
   softwareSkills: [
     {
-      skillName: "c#",
+      skillName: "Google Ads",
+      fontAwesomeClassname: "buysellads-custom-icon"
+    },
+    {
+      skillName: "Meta Ads",
       fontAwesomeClassname: "csharp-custom-icon"
     },
     {
@@ -85,10 +89,6 @@ const skillsSection = {
     {
       skillName: "oracle",
       fontAwesomeClassname: "oracle-custom-icon"
-    },
-    {
-      skillName: "Google Ads",
-      fontAwesomeClassname: "buysellads-custom-icon"
     }
     
   ],
